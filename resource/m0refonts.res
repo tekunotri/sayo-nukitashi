@@ -872,8 +872,9 @@ Scheme
 			"antialias" 								"1"
 		}
 	}
+}
 
-	}
+
 
 	CustomFontFiles
 	{
@@ -924,6 +925,11 @@ Scheme
 		{
 			"font"		"resource/fonts/jf-openhuninn-1.1.ttf"
 			"name"		"jf-openhuninn-1.1"
+		}
+		"17"
+		{
+			"font"		"resource/fonts/m0rehud_icons.ttf"
+			"name"		"m0rehud Icons V9"
 		}
 	}
 }
