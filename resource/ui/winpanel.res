@@ -23,8 +23,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"fillcolor"		"NKT-Blue"
-			"bgcolor_override"		"NKT-Blue"
+			"fillcolor"		"NKT-BlueT"
+			"bgcolor_override"		"NKT-BlueT"
 		}
 		"BlueScoreBG2"
 		{
@@ -57,8 +57,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"fillcolor"		"NKT-Orange"
-			"bgcolor_override"		"NKT-Orange"
+			"fillcolor"		"NKT-OrangeT"
+			"bgcolor_override"		"NKT-OrangeT"
 		}
 		"RedScoreBG2"
 		{
@@ -393,7 +393,7 @@
 	"TopPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 		"ypos"			"9999"

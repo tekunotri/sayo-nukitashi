@@ -867,10 +867,9 @@ Scheme
 		"1"
 		{
 			"name"										"Product Sans"
-			"tall"										"10"
+			"tall"										"12"
 			"additive"									"0"
 			"antialias" 								"1"
-			"dropshadow"								"1"
 		}
 	}
 

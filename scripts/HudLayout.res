@@ -1,5 +1,5 @@
-#base "../scripts/Crosshairs/crosshairs.res"
-#base "../scripts/HudLayout_Base.res"
+#base "crosshairs/crosshairs.res"
+#base "hudlayout_base.res"
 
 "Resource/HudLayout.res"
 {
@@ -228,11 +228,11 @@
 		"MaxDeathNotices" 							"12"
 		"IconScale"	  								"0.35"
 		"LineHeight"	  							"14"
-		"LineSpacing"	 							"-2"
+		"LineSpacing"	 							"0"
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
 
-		"TextFont"									"ProdutKF"
+		"TextFont"									"ProductKF"
 
 		"TeamBlue"									"NKT-Blue"
 		"TeamRed"									"NKT-Orange"

@@ -37,7 +37,9 @@ Scheme
 		"Gray"				"165 165 165 255"
 		// tomfoolery
 		"NKT-Orange"		"255 79 20 255"
+		"NKT-OrangeT"		"255 79 20 200" // transparent orange/red
 		"NKT-Blue"			"2 245 237 255"
+		"NKT-BlueT"			"2 245 237 200" // transparent blue
 	}
 
 	BaseSettings
