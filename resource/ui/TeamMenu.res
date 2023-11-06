@@ -62,7 +62,7 @@
 		"font"			  							"M0refont24"
 		"fgcolor"		  							"White"
 	}
-	
+
 	"teambutton0"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -87,7 +87,7 @@
 		"team"				"3"		// team blue
 		"font"			"M0refont30Bold"
 		"fgcolor"		"White"
-		
+
 		"border_default"			"ButtonBlueTeam"
 		"border_armed"				"ButtonDefault"
 	}
@@ -116,7 +116,7 @@
 		"team"				"2"		// team red
 		"font"			"M0refont30Bold"
 		"fgcolor"		"White"
-		
+
 		"border_default"			"ButtonRedTeam"
 		"border_armed"				"ButtonDefault"
 	}
@@ -144,17 +144,17 @@
 		"command"		"jointeam auto"
 		"font"			"m0refont11"
 		"fgcolor"		"White"
-		
+
 		"border_default"			"ButtonDefault"
 		"border_armed"				"ButtonHover"
-		
+
 		"AllCaps"		"1"
-		
+
 		"pin_to_sibling" "teambutton3"
 		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -178,18 +178,18 @@
 		"command"		"jointeam spectate"
 		"font"			"m0refont11"
 		"fgcolor"		"White"
-		
+
 		"border_default"			"ButtonDefault"
 		"border_armed"				"ButtonHover"
-		
+
 		"AllCaps"		"1"
-		
+
 		"pin_to_sibling" "teambutton0"
 		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
-	
-	"CancelButton" [$WIN32] 
+
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -213,8 +213,8 @@
 		"command"		"cancelmenu"
 		"font"			"MenuSmallFont"
 	}
-	
-	
+
+
 	"TeamMenuSelect"
 	{
 		"ControlName"	  							"CExLabel"
@@ -240,7 +240,7 @@
 		"font"			  							"MenuMainTitle"
 		"fgcolor"		  							"HudOffWhite"
 	}
-	
+
 
 
 	"MainBG"
@@ -258,7 +258,7 @@
 		"paintbackground"	"1"
 		"bgcolor_override"	"0 0 0 0"
 	}
-	
+
 
 	"blueframe"
 	{
@@ -266,18 +266,18 @@
 		"fieldName"	        	  					"blueframe"
 		"xpos"			            				"c-70"
 		"ypos"		          	  					"c-25"
-		"zpos"		          	  					"1"		
+		"zpos"		          	  					"1"
 		"wide"			            				"50"
 		"tall"			            				"50"
 		"autoResize"        	  					"0"
 		"pinCorner"		          					"0"
 		"visible"	          	  					"1"
 		"enabled"	          	  					"1"
-		"fillcolor"		          	  					"BlueTeam"
+		"fillcolor"		          	  					"NKT-Blue"
 		"src_corner_height"	    					"15"
 		"src_corner_width"	    					"15"
-		"draw_corner_width"	    					"0"	
-		"draw_corner_height"    					"0"	
+		"draw_corner_width"	    					"0"
+		"draw_corner_height"    					"0"
 
 	}
 		"blueframe2"
@@ -286,7 +286,7 @@
 		"fieldName"	        	  					"blueframe2"
 		"xpos"			            				"c-70"
 		"ypos"		          	  					"c-25"
-		"zpos"		          	  					"2"		
+		"zpos"		          	  					"2"
 		"wide"			            				"50"
 		"tall"			            				"2"
 		"autoResize"        	  					"0"
@@ -296,37 +296,37 @@
 		"fillcolor"		          	  					"White"
 		"src_corner_height"	    					"15"
 		"src_corner_width"	    					"15"
-		"draw_corner_width"	    					"0"	
-		"draw_corner_height"    					"0"	
+		"draw_corner_width"	    					"0"
+		"draw_corner_height"    					"0"
 
 	}
-	
+
 	"redframe"
 	{
 		"ControlName"		        				"ImagePanel"
-		"fieldName"	        	  					"redframe"		
+		"fieldName"	        	  					"redframe"
 		"xpos"		          	  					"c20"
 		"ypos"		          	  					"c-25"
-		"zpos"		          	  					"1"		
+		"zpos"		          	  					"1"
 		"wide"		          	  					"50"
 		"tall"		          	  					"50"
 		"autoResize"	          					"0"
 		"pinCorner"	        	  					"0"
 		"visible"	          	  					"1"
 		"enabled"		           					"1"
-		"fillcolor"		             					"RedTeam"
+		"fillcolor"		             					"NKT-Orange"
 		"src_corner_height" 	  					"15"
 		"src_corner_width"  	  					"15"
-		"draw_corner_width" 	  					"0"	
-		"draw_corner_height" 	  					"0"	
-	}	
+		"draw_corner_width" 	  					"0"
+		"draw_corner_height" 	  					"0"
+	}
 	"redframe2"
 	{
 		"ControlName"		        				"ImagePanel"
-		"fieldName"	        	  					"redframe2"		
+		"fieldName"	        	  					"redframe2"
 		"xpos"		          	  					"c20"
 		"ypos"		          	  					"c-25"
-		"zpos"		          	  					"2"		
+		"zpos"		          	  					"2"
 		"wide"		          	  					"50"
 		"tall"		          	  					"2"
 		"autoResize"	          					"0"
@@ -336,10 +336,10 @@
 		"fillcolor"		             					"White"
 		"src_corner_height" 	  					"15"
 		"src_corner_width"  	  					"15"
-		"draw_corner_width" 	  					"0"	
-		"draw_corner_height" 	  					"0"	
-	}	
-	
+		"draw_corner_width" 	  					"0"
+		"draw_corner_height" 	  					"0"
+	}
+
 	"BlueLabel"
 	{
 		"ControlName"	  							"CTFLabel"
@@ -359,8 +359,8 @@
 		"pinCorner"		  							"0"
 		"dulltext"		  							"0"
 		"brighttext"	  							"1"
-	}		
-	
+	}
+
 	"RedLabel"
 	{
 		"ControlName"	  							"CTFLabel"
@@ -377,14 +377,14 @@
 		"font"			  							"Default"
 		"fgcolor"		  							"White"
 	}
-	
+
 	"RandomFrame"
 	{
 		"ControlName"	  							"CTFImagePanel"
 		"fieldName"		  							"RandomFrame"
 		"xpos"			  							"c-30"
 		"ypos"			  							"c-14"
-		"zpos"			  							"1"		
+		"zpos"			  							"1"
 		"wide"			  							"60"
 		"tall"			  							"12"
 		"visible"		  							"1"
@@ -392,11 +392,11 @@
 		"image"			  							"../hud/color_panel_clear"
 		"src_corner_height"	  						"60"
 		"src_corner_width"	  						"60"
-		
+
 		"draw_corner_width"	  						"0"
-		"draw_corner_height" 	  					"0"		
-	}		
-	
+		"draw_corner_height" 	  					"0"
+	}
+
 	"SpectateFrame"
 	{
 		"ControlName"	  							"CTFImagePanel"
@@ -414,12 +414,12 @@
 		"image"			  							"../hud/color_panel_brown"
 		"src_corner_height"	  						"23"
 		"src_corner_width"	  						"23"
-		
+
 		"draw_corner_width"	  						"3"
-		"draw_corner_height" 	  					"3"	
-		
-	}			
-	
+		"draw_corner_height" 	  					"3"
+
+	}
+
 	"Footer"
 	{
 		"ControlName"		  						"CTFFooter"
@@ -440,30 +440,30 @@
 		"button_pin_right_lodef"	  				"55"
 		"fonttext"			  						"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			  				"MatchmakingDialogMenuSmall"
-		"fgcolor"			  						"HudOffWhite" 	
-		
+		"fgcolor"			  						"HudOffWhite"
+
 		"button"
 		{
 			"name"		  							"cancel"
 			"text"		  							"#GameUI_Cancel"
-			"icon"		  							"#GameUI_Icons_B_BUTTON"	
+			"icon"		  							"#GameUI_Icons_B_BUTTON"
 		}
-		
+
 		"button"
 		{
 			"name"		  							"nextprev"
 			"text"		  							"#TF_NextPrev"
-			"icon"		  							"#GameUI_Icons_DPAD"	
+			"icon"		  							"#GameUI_Icons_DPAD"
 		}
-		
+
 		"button"
 		{
 			"name"		  							"select"
 			"text"		  							"#GameUI_Select"
-			"icon"		  							"#GameUI_Icons_A_BUTTON"	
+			"icon"		  							"#GameUI_Icons_A_BUTTON"
 		}
-	}	
-	
+	}
+
 	"HighlanderLabel"
 	{
 		"ControlName"	  							"CExLabel"
@@ -485,7 +485,7 @@
 		"fgcolor"		  							"HudOffWhite"
 		"centerwrap"	  							"1"
 	}
-	
+
 	"HighlanderLabelShadow"
 	{
 		"ControlName"	  							"CExLabel"
@@ -507,7 +507,7 @@
 		"fgcolor"		  							"black"
 		"centerwrap"	  							"1"
 	}
-	
+
 	"TeamsFullLabel"
 	{
 		"ControlName"	  							"CExLabel"
@@ -529,7 +529,7 @@
 		"fgcolor"		  							"HudOffWhite"
 		"centerwrap"	  							"1"
 	}
-	
+
 	"TeamsFullLabelShadow"
 	{
 		"ControlName"	  							"CExLabel"
@@ -564,6 +564,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"1"
 		"image"			  							"../HUD/arrow_big_down"
-		"scaleImage"	  							"1"	
+		"scaleImage"	  							"1"
 	}
 }

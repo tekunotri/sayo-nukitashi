@@ -12,7 +12,7 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"0 255 100 255" 					Accel 	0.0 0.0
 
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor 	"NKT-Blue" 							Accel 	0.0 0.0
 
 
 	RunEvent HudHealthBonusPulseLoop			0.4

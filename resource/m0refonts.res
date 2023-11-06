@@ -593,7 +593,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -603,7 +603,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -860,8 +860,19 @@ Scheme
 				"yres"										"1001 10000"
 			}
 		}
-//LOADOUT STUFF
+//killfeed only
 
+	"ProductKF"
+	{
+		"1"
+		{
+			"name"										"Product Sans"
+			"tall"										"10"
+			"additive"									"0"
+			"antialias" 								"1"
+			"dropshadow"								"1"
+		}
+	}
 
 	}
 

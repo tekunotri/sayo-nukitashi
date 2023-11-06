@@ -2,7 +2,7 @@
 #base "../scripts/HudLayout_Base.res"
 
 "Resource/HudLayout.res"
-{	
+{
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
@@ -13,7 +13,7 @@
 		"wide"	"320"
 		"tall"	"120"
 	}
-	
+
 	HudKothTimeStatus
 	{
 		"fieldName" 								"HudKothTimeStatus"
@@ -23,12 +23,12 @@
 		"ypos"										"5"
 		"wide"										"200"
 		"tall"										"160"
-		
+
 		"blue_active_xpos"							"54"
-	
+
 		"red_active_xpos"							"104"
 
-	}	
+	}
 
 	HudItemEffectMeter
 	{
@@ -39,20 +39,20 @@
 		"wide"			"f0"
 		"tall"			"480"
 	}
-	
+
 	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"5"		//c-95
-		"ypos"			"2"		//"r164"	
-		"wide"			"f0"		
+		"ypos"			"2"		//"r164"
+		"wide"			"f0"
 		"tall"			"600"		//100
 		"MeterFG"		"White"
 		"MeterBG"		"Black"
 	}
-	
+
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
@@ -65,7 +65,7 @@
 		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-	}	
+	}
 	HudFlameRocketCharge
 	{
 		"fieldName"									"HudFlameRocketCharge"
@@ -79,7 +79,7 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	CHudAccountPanel
 	{
 		"fieldName"									"CHudAccountPanel"
@@ -91,7 +91,7 @@
 		"enabled" 									"1"
 		"PaintBackgroundType"						"2"
 	}
-	
+
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
@@ -103,7 +103,7 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	HudDamageIndicator
 	{
 		"fieldName"									"HudDamageIndicator"
@@ -117,7 +117,7 @@
 		"MaximumHeight"								"60"
 		"MinimumTime"								"1"
 	}
-	
+
 	CDamageAccountPanel
 	{
 		"fieldName"									"CDamageAccountPanel"
@@ -129,7 +129,7 @@
 		"enabled" 									"1"
 		"PaintBackgroundType"						"2"
 	}
-	
+
 	DisguiseStatus
 	{
 		"fieldName" 								"DisguiseStatus"
@@ -152,7 +152,7 @@
 		"tall"	 	"34"
 		"priority"	"40"
 	}
-	
+
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
@@ -164,7 +164,7 @@
 		"tall"	 	"34"
 		"priority"	"40"
 	}
-	
+
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
@@ -176,7 +176,7 @@
 		"tall"	 	"34"
 		"priority"	"35"
 	}
-	
+
 	BuildingStatus_Engineer
 	{
 		"fieldName" 								"BuildingStatus_Engineer"
@@ -186,10 +186,10 @@
 		"ypos"										"120"
 		"wide"										"f0"
 		"tall"										"480"
-		
+
 		"PaintBackgroundType"						"2"
 	}
-		
+
 	HudRoundTimerHudRoundTimer
 	{
 		"fieldName" 								"HudRoundTimer"
@@ -199,16 +199,16 @@
 		"tall"  									"40"
 		"visible" 									"1"
 		"enabled" 									"1"
-		
+
 		"PaintBackgroundType"						"2"
 
-		"FlashColor" 								"HudIcon_Red"		
+		"FlashColor" 								"HudIcon_Red"
 
 		"icon_xpos"									"0"
 		"icon_ypos"									"2"
 		"digit_xpos"								"34"
 		"digit_ypos"								"2"
-		
+
 		if_mvm
 		{
 			"visible"								"0"
@@ -221,28 +221,28 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"	 									"r640"
-		"ypos"	 									"35"
+		"ypos"	 									"17"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
 		"MaxDeathNotices" 							"12"
 		"IconScale"	  								"0.35"
-		"LineHeight"	  							"15"
-		"LineSpacing"	 							"0"
+		"LineHeight"	  							"14"
+		"LineSpacing"	 							"-2"
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
-		
-		"TextFont"									"m0refont11"
-		
-		"TeamBlue"									"BlueTeamS"
-		"TeamRed"									"RedTeamS"
+
+		"TextFont"									"ProdutKF"
+
+		"TeamBlue"									"NKT-Blue"
+		"TeamRed"									"NKT-Orange"
 		"IconColor"									"235 235 235 255"
 		"LocalPlayerColor"							"12 12 12 255"
 
 		"BaseBackgroundColor"						"0 0 0 160"
-		"LocalBackgroundColor"						"235 235 235 200"
+		"LocalBackgroundColor"						"222 222 222 200"
 	}
-	
+
 	HudSpellMenu
 	{
 		"fieldName" 								"HudSpellMenu"
@@ -254,7 +254,7 @@
 		"xpos"										"c155"
 		"ypos"										"r61"
 	}
-	
+
 	HudControlPointIcons
 	{
 		"fieldName"									"HudControlPointIcons"
@@ -292,7 +292,7 @@
 		"wide"					"450"
 		"tall"					"218"
 	}
-	
+
 	PVEWinPanel
 	{
 		"fieldName"				"PVEWinPanel"
@@ -314,7 +314,7 @@
 		"wide"										"320"
 		"tall"										"150"
 	}
-	
+
 	HudTeamSwitch
 	{
 		"fieldName"									"HudTeamSwitch"
@@ -325,7 +325,7 @@
 		"wide"										"320"
 		"tall"										"100"
 	}
-	
+
 	"HudMenuEngyBuild"
 	{
 		"fieldName" 								"HudMenuEngyBuild"
@@ -337,7 +337,7 @@
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
-	
+
 	"HudMenuEngyDestroy"
 	{
 		"fieldName" 								"HudMenuEngyDestroy"
@@ -361,7 +361,7 @@
 		"tall"										"195"
 		"PaintBackgroundType"						"0"
 	}
-	
+
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 								"HudMenuSpyDisguise"
@@ -373,7 +373,7 @@
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
-	
+
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 								"HudMenuTauntSelection"
@@ -386,17 +386,17 @@
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
-	
+
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-70"	
-		"ypos"			"r185"	
+		"xpos"			"c-70"
+		"ypos"			"r185"
 		"wide"			"118"
 		"tall"			"60"
-	}			
+	}
 
 	HudTournament
 	{
@@ -432,10 +432,10 @@
 		"wide"										"f0"
 		"tall"										"55"
 	}
-	
+
 	HudArenaClassLayout
 	{
-		"fieldName"									"HudArenaClassLayout"		
+		"fieldName"									"HudArenaClassLayout"
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"0"
@@ -443,7 +443,7 @@
 		"wide"										"f0"
 		"tall"										"320"
 	}
-	
+
 	"HudAchievementTracker"
 	{
 		"ControlName"								"EditablePanel"
@@ -455,9 +455,9 @@
 		"wide"										"200"
 		"tall"										"280"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 	}
-	
+
 	HudInspectPanel
 	{
 		"fieldName"									"HudInspectPanel"
@@ -469,7 +469,7 @@
 		"wide"										"270"
 		"tall"										"180"
 	}
-	
+
 	ItemQuickSwitchPanel
 	{
 		"fieldName"									"ItemQuickSwitchPanel"
@@ -480,9 +480,9 @@
 		"wide"										"246"
 		"tall"										"121"
 	}
-	
+
 	/////////////////////////////REMOVED STUFF/////////////////////////////
-	
+
 	HudBowCharge
 	{
 		"fieldName"									"HudBowCharge"
@@ -491,7 +491,7 @@
 		"wide"										"0"
 		"tall"										"0"
 	}
-	
+
 	StatPanel
 	{
 		"fieldName"									"StatPanel"
@@ -500,7 +500,7 @@
 		"wide"										"0"
 		"tall"										"0"
 	}
-	
+
 	HudArenaNotification
 	{
 		"fieldName"									"HudArenaNotification"
@@ -509,7 +509,7 @@
 		"wide"										"0"
 		"tall"										"0"
 	}
-	
+
 	HudTeamGoal
 	{
 		"fieldName"									"HudTeamGoal"
@@ -518,7 +518,7 @@
 		"wide"										"0"
 		"tall"										"0"
 	}
-	
+
 	HudTeamGoalTournament
 	{
 		"fieldName"									"HudTeamGoalTournament"

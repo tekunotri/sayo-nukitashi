@@ -5,7 +5,7 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -46,7 +46,7 @@
 			"image"				"../hud/comp_round_counter_light_blue"
 			"scaleimage"		"1"
 		}
-	}	
+	}
 
 	"Background"
 	{
@@ -60,12 +60,12 @@
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
-			
+
 		"image"					"../hud/comp_round_timer"
 		"scaleimage"			"1"
 	}
-	
-    "MainBG"	
+
+    "MainBG"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MainBG"
@@ -79,12 +79,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"0 0 0 160"
-		"border_default"				"noborder"		
+		"border_default"				"noborder"
 		"PaintBackgroundType""0"
         "textinsety" "99"
-	}	
-	
-    "RedBG"	
+	}
+
+    "RedBG"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"RedBG"
@@ -97,13 +97,13 @@
 		"pinCorner"	"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"RedTeam"
-		"border_default"				"noborder"		
+		"defaultBgColor_Override"		"NKT-Orange"
+		"border_default"				"noborder"
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}
-	
-    "BlueBG"	
+
+    "BlueBG"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueBG"
@@ -116,9 +116,9 @@
 		"pinCorner"	"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"BlueTeam"
-		"border_default"				"noborder"		
+		"defaultBgColor_Override"		"NKT-Blue"
+		"border_default"				"noborder"
 		"PaintBackgroundType""0"
         "textinsety" "99"
-	}	
+	}
 }
