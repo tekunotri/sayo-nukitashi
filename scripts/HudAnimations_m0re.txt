@@ -51,7 +51,7 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"255 200 70 255" 					Linear 	0.0 0.0
 
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor 	"HUDDeathWarning" 					Accel 	0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop			0.25
 }
@@ -102,7 +102,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoInClip							FgColor 	"Ammo in clip" 						Linear 	0.0 0.0
 
 	Animate AmmoInReserve 						Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInReserve 						FgColor 	"Ammo in reserve" 					Linear 	0.0 0.0
+	Animate AmmoInReserve 						FgColor 	"NKT-Orange" 					Linear 	0.0 0.0
 
 	Animate AmmoNoClip 							Alpha 		"255" 								Linear 	0.0 0.0
 	Animate AmmoNoClip							FgColor 	"Ammo no clip" 						Linear 	0.0 0.0
@@ -113,15 +113,15 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	Animate ChargeLabelBig 						Alpha 		"255" 								Linear 	0.0 0.01
-	Animate ChargeLabelBig 						FgColor 	"Full Ubercharge" 					Accel 	0.0 0.0
+	Animate ChargeLabelBig 						FgColor 	"NKT-Orange" 					Accel 	0.0 0.0
 
 	Animate ChargeLabelTiny						Alpha 		"255" 								Linear 	0.0 0.01
-	Animate ChargeLabelTiny						FgColor 	"Full Ubercharge" 					Accel 	0.0 0.0
+	Animate ChargeLabelTiny						FgColor 	"NKT-Orange" 					Accel 	0.0 0.0
 
 	Animate ChargeLabelBigS						Alpha 		"255" 								Linear 	0.0 0.01
 	Animate ChargeLabelBigS 					FgColor 	"0 0 0 255"							Accel 	0.0 0.0
 
-	Animate ChargeMeter 						FgColor 	"Ubercharge Bar" 					Accel 	0.0 0.0
+	Animate ChargeMeter 						FgColor 	"NKT-Orange" 					Accel 	0.0 0.0
 
 	RunEvent HudMedicChargedLoop				0.6
 }

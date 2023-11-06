@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
+		"fieldName"		"scores"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -24,12 +24,12 @@
 		"killstreak_width"							"12"
 		"killstreak_image_width" 					"12"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"c-255"		
+		"xpos"			"c-255"
 		"ypos"			"r279"
 		"zpos"			"-1"
 		"wide"			"255"
@@ -109,7 +109,7 @@
 			"visible"			"1"
 		}
 	}
-	
+
 	"MvMBGBottomLeft"
 	{
 		"ControlName"	"ImagePanel"
@@ -204,7 +204,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BlueTeamS"
+		"fillcolor"		"NKT-BlueT"
 
 		if_mvm
 		{
@@ -217,10 +217,10 @@
 		"fieldName"		"BlueTeamLabel"
 		"font"			"m0refont14Bold"
 		"labelText"		"%blueteamname%"
-		"fgcolor"		"BlueTeamS"
+		"fgcolor"		"NKT-BlueT"
 		"textAlignment"	"west"
-		"xpos"			"c-251"			
-		"ypos"			"r301"				
+		"xpos"			"c-251"
+		"ypos"			"r301"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"20"
@@ -233,7 +233,7 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
 	"BlueTeamScore"
 	{
 		"ControlName"	"CExLabel"
@@ -255,7 +255,7 @@
 			"visible"		"0"
 		}
 	}
-	
+
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"	"CExLabel"
@@ -281,7 +281,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamLabelBG"
 		"xpos"			"c1"
-		"ypos"			"r301" 
+		"ypos"			"r301"
 		"wide"			"254"
 		"tall"			"21"
 		"autoResize"	"0"
@@ -307,7 +307,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"RedTeamS"
+		"fillcolor"		"NKT-OrangeT"
 
 		if_mvm
 		{
@@ -320,11 +320,11 @@
 		"fieldName"		"RedTeamLabel"
 		"font"			"m0refont14Bold"
 		"labelText"		"%redteamname%"
-		"fgcolor"		"RedTeamS"
+		"fgcolor"		"NKT-OrangeT"
 		"textAlignment"	"east"
 		"xpos"			"c150"
-		"ypos"			"r301"				
-		"zpos"			"5"		
+		"ypos"			"r301"
+		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -336,7 +336,7 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
 	"RedTeamScore"
 	{
 		"ControlName"	"CExLabel"
@@ -359,7 +359,7 @@
 		}
 	}
 
-	
+
 	"RedTeamPlayerCount"
 	{
 		"ControlName"	"CExLabel"
@@ -379,7 +379,7 @@
 		{
 			"visible"		"0"
 		}
-	}			
+	}
 	"ServerLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -403,7 +403,7 @@
 			"wide"			"590"
 		}
 	}
-	"ServerTimeLeft" 
+	"ServerTimeLeft"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
@@ -507,7 +507,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-	}	
+	}
 	"SpectatorsInQueue"
 	{
 		"ControlName"	"CExLabel"
@@ -524,8 +524,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-	}				
-	"ShadedBar" 
+	}
+	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
@@ -542,7 +542,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 160"
 		"PaintBackgroundType"	"0"
 
@@ -565,7 +565,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 
 		if_mvm
 		{
@@ -578,17 +578,17 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"-10"
 		"ypos"			"185"
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"0"		//130
 		"tall"			"0"		//260
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
@@ -599,7 +599,7 @@
 		{
 			"visible"		"0"
 		}
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -614,7 +614,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 
@@ -714,7 +714,7 @@
 				"origin_z"		"-82"
 			}
 		}
-	}	
+	}
 	"PlayerNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -739,7 +739,7 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
 	"HorizontalLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -764,7 +764,7 @@
 		"textAlignment"	"west"
 		"fgcolor"		"White"
 		"xpos"			"c-270"
-		"ypos"			"r115"	
+		"ypos"			"r115"
 		"zpos"			"3"
 		"wide"			"140"
 		"tall"			"20"
@@ -846,7 +846,7 @@
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
-			"AvatarImage"	
+			"AvatarImage"
 			{
 				"ControlName"	"CAvatarImagePanel"
 				"fieldName"		"AvatarImage"
@@ -858,11 +858,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
@@ -932,11 +932,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
@@ -967,9 +967,9 @@
 				"fgcolor"		"170 40 40 255"
 				"font"			"m0refont16"
 			}
-		}		
+		}
 	}
-	
+
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
@@ -987,7 +987,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		
+
 		if_mvm
 		{
 			"font"		"m0refont10"
@@ -1011,7 +1011,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"42 46 48 0"
-		
+
 		if_mvm
 		{
 			"xpos"		"c-260"
@@ -1038,12 +1038,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"ypos"		"22"
 			}
-		}						
+		}
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1061,12 +1061,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"ypos"		"42"
 			}
-		}			
+		}
 		"Kills"
 		{
 			"ControlName"		"CExLabel"
@@ -1084,7 +1084,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
-		}	
+		}
 		"Kills2"
 		{
 			"ControlName"		"CExLabel"
@@ -1103,13 +1103,13 @@
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"ypos"		"22"
 			}
 		}
-		
+
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
@@ -1144,13 +1144,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"ypos"		"42"
 			}
 		}
-		
+
 		"HealingLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1167,13 +1167,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"xpos"		"95"
 				"ypos"		"22"
 			}
-		}			
+		}
 		"Healing"
 		{
 			"ControlName"		"CExLabel"
@@ -1191,7 +1191,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-		}	
+		}
 		"Healing2"
 		{
 			"ControlName"		"CExLabel"
@@ -1209,13 +1209,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"xpos"		"174"
 				"ypos"		"22"
 			}
-		}	
+		}
 		"DamageLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1233,7 +1233,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
-			
+
 			if_mvm
 			{
 				"xpos"		"95"
@@ -1277,15 +1277,15 @@
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"xpos"		"174"
 				"ypos"		"42"
 			}
 		}
-		
-		
+
+
 		"CapturesLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1302,12 +1302,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}		
+		}
 		"Captures"
 		{
 			"ControlName"		"CExLabel"
@@ -1325,7 +1325,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-		}	
+		}
 		"Captures2"
 		{
 			"ControlName"		"CExLabel"
@@ -1343,12 +1343,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 		"DefensesLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1365,12 +1365,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 		"Defenses"
 		{
 			"ControlName"		"CExLabel"
@@ -1388,7 +1388,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-		}	
+		}
 		"Defenses2"
 		{
 			"ControlName"		"CExLabel"
@@ -1406,12 +1406,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 		"DominationLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1428,7 +1428,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1451,7 +1451,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-		}	
+		}
 		"Domination2"
 		{
 			"ControlName"		"CExLabel"
@@ -1469,12 +1469,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}		
+		}
 		"RevengeLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1491,12 +1491,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}					
+		}
 		"Revenge"
 		{
 			"ControlName"		"CExLabel"
@@ -1532,14 +1532,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
 		}
-		
-		
+
+
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1556,7 +1556,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1579,7 +1579,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-		}	
+		}
 		"Assists2"
 		{
 			"ControlName"		"CExLabel"
@@ -1597,7 +1597,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1619,7 +1619,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1660,7 +1660,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1682,12 +1682,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}		
+		}
 		"Headshots"
 		{
 			"ControlName"		"CExLabel"
@@ -1723,7 +1723,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1745,7 +1745,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1786,14 +1786,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
 		}
-		
-		
+
+
 		"DestructionLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1810,7 +1810,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1833,7 +1833,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-		}	
+		}
 		"Destruction2"
 		{
 			"ControlName"		"CExLabel"
@@ -1851,12 +1851,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 		"TeleportsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1873,7 +1873,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1896,7 +1896,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-		}	
+		}
 		"Teleports2"
 		{
 			"ControlName"		"CExLabel"
@@ -1914,12 +1914,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
-		}		
+		}
 		"BonusLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1937,7 +1937,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -1978,7 +1978,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -2000,7 +2000,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
@@ -2043,13 +2043,13 @@
 			"enabled"		"1"
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"0 0 0 0"
-			
+
 			if_mvm
 			{
 				"visible"	"0"
 			}
 		}
-		
+
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
@@ -2075,12 +2075,12 @@
 	{
 		"visible"		"0"
 	}
-	
+
 	"ButtonLegend"		[$X360]
 	{
 		"visible"		"0"
-	}		
-	
+	}
+
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
@@ -2092,9 +2092,9 @@
 		"tall"				"f0"
 		"visible"			"0"
 		"enabled"			"1"
-		
+
 		"verbose"			"1"
-		
+
 		if_mvm
 		{
 			"visible"		"1"

@@ -1,5 +1,18 @@
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
+	"TopBgImage"
+	{
+		"ControlName"				"ImagePanel"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"-2"
+		"wide"						"f0" //Change this to "0" if you dont want a bg here
+		"tall"						"480"
+		"image"						"replay/thumbnails/bg_images/nktbeach" // ideally i wouldn't do this as im basically doubling the hud filesize but no better way...
+		"scaleImage"				"1"
+		"enabled"					"0"
+		"visible"					"1"
+	}
 	"CharInfoLoadoutSubPanel"
 	{
 		"ControlName"								"Frame"

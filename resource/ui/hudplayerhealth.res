@@ -47,7 +47,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"		"59"
+		"xpos"		"9999"
 		"ypos"		"44"
 		"zpos"		"-4"
 		"wide"		"44"
@@ -58,7 +58,7 @@
 		"scaleImage"	"1"
 	}
 
-	"PlayerStatusHealthValueMain"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
@@ -103,7 +103,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/bleed_drop"
+		"image"			"bleed_drop"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMilkImage"
@@ -118,7 +118,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/bleed_drop"
+		"image"			"bleed_drop"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -133,7 +133,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/marked_for_death"
+		"image"			"marked_for_death"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
@@ -148,7 +148,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/marked_for_death"
+		"image"			"marked_for_death"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"

@@ -4,15 +4,15 @@ Scheme
 	{
 		"Health Numbers"									"255 255 255 255"
 
-		"Ammo In Clip"										"245 255 250 255"
+		"Ammo In Clip"										"255 255 255 255"
 		"Ammo In Reserve"									"50 255 187 255"
-		"Ammo No Clip"										"245 255 250 255"
+		"Ammo No Clip"										"255 255 255 255"
 
 		"Low Ammo In Clip"									"222 187 255 255"
 		"Low Ammo In Reserve"								"222 187 255 255"
 		"Low Ammo No Clip"									"222 187 255 255"
 
-		"Ubercharge"										"235 235 235 255"
+		"Ubercharge"										"255 255 255 255"
 		"Full Ubercharge"									"255 0 127 255"
 		"Ubercharge Bar"									"255 0 127 255"
 

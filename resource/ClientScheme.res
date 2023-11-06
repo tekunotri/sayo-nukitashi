@@ -604,7 +604,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"jf-openhuninn-1.1" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"900"
@@ -612,7 +612,18 @@ Scheme
 				"additive"	"1"
 			}
 		}
-
+		"JFDamage"
+		{
+			"1"
+			{
+				"name"		"jf-openhuninn-1.1"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -3519,13 +3530,13 @@ Scheme
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"backgroundtype"		"0"
+			"color"					"27 27 27 235"
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 
 		BackpackItemGrayedOut
