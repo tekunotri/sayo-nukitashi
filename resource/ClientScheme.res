@@ -3461,6 +3461,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"QualityColorNormal"
 
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3481,12 +3482,13 @@ Scheme
 			"draw_corner_height" 	"11"
 		}
 
-		EconItemBorder
+		EconItemBorder // of all things WHY is this the one that controls stock items??????????
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"QualityColorNormal"
 
-			"image"					"loadout_rect"
+			"image"					"backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
