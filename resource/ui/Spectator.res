@@ -11,11 +11,11 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"specgui"
 	{
 	}
-	
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -39,7 +39,7 @@
 			"ypos"		"120"
 		}
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -57,13 +57,13 @@
 		"font"										"m0refont16"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		
+
 		if_mvm
 		{
 			"visible"								"1"
 		}
 	}
-	
+
 	"itempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -74,33 +74,33 @@
 		"wide"										"190"
 		"tall"										"100"
 		"visible"									"0"
-		"bgcolor_override"							"255 255 255 0"
+		"bgcolor_override"							"0 0 0 235"
 		"PaintBackgroundType"						"0"
-		
+
 		"model_ypos"								"10"
 		"model_center_x"							"1"
 		"model_wide"								"90"
 		"model_tall"								"60"
-		
+
 		"text_xpos"									"10"
 		"text_ypos"									"10"
 		"text_wide"									"170"
 		"text_center"								"1"
-		
+
 		"max_text_height"							"100"
 		"padding_height"							"10"
 		"resize_to_text"							"1"
 		"text_forcesize"							"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
 			"use_item_rendertarget"					"0"
 			"useparentbg"							"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"							"Label"
 			"fieldName"								"ItemLabel"
 			"font"									"DefaultSmall"
@@ -119,7 +119,7 @@
 			"brighttext"							"0"
 		}
 	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"								"EditablePanel"
@@ -133,13 +133,13 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
 	"topbar"
 	{
 		"ControlName"								"Panel"
@@ -154,21 +154,21 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"BottomBar"
 	{
 		"ControlName"								"Frame"
 		"fieldName"									"BottomBar"
 		"xpos"										"0"
 		"ypos"										"r0"																					[$WIN32]
-		"tall"										"0"																						[$WIN32]	
+		"tall"										"0"																						[$WIN32]
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
 		"tabPosition"								"0"
 	}
-	
+
 	"bottombarblank"
 	{
 		"ControlName"								"Panel"
@@ -183,7 +183,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -193,7 +193,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"ClassOrTeamLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -203,7 +203,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -213,7 +213,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"SwitchCamModeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -223,7 +223,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -242,7 +242,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -252,7 +252,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"CycleTargetRevLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -262,7 +262,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"TipLabel"
 	{
 		"ControlName"								"CExLabel"
