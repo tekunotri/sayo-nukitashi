@@ -15,6 +15,17 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
+
+		"DarkBrown"	"46 43 42 255"
+		"Blank"	"0 0 0 0"
+		"White"	"225 220 220 255"
+		"Black"	"0 0 0 255"
+		"FooterBGBlack"	"32 31 30 255"
+		"LighterDarkBrown"	"72 71 70 255"
+		"LabelTransparent"	"0 0 0 130"
+		"Main"	"255 79 20 255"
+		"QualityColorUnique"	"255 215 0 255"
+		
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
 	    "TFTanBright"               "236 227 203 150"

@@ -36,7 +36,7 @@
 			"ypos"									"-1"
 			"zpos"									"-1"
 			"wide"									"p1.1"
-			"tall"									"f8"
+			"tall"									"0"
 			"visible"								"0"
 			"PaintBackground"						"0"
 			"border"								"ReplayDefaultBorder"
