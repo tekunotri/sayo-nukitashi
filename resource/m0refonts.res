@@ -67,7 +67,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Verdana"
+				"name"										"Surface-Medium"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -828,6 +828,28 @@ Scheme
 				"antialias" 								"1"
 				"yres"	    								"1001 10000"
 			}
+			"5" 
+			{
+				"name"		"Surface-Medium"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
 		}
 		"DefaultSmall"
 		{
@@ -857,7 +879,22 @@ Scheme
 				"name"										"Surface-Medium"
 				"tall"      								"24"
 				"antialias" 								"1"
-				"yres"										"1001 10000"
+				"yres"										"1001 1199"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Surface-Medium"
+				"tall"		"9"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
 			}
 		}
 //killfeed only
