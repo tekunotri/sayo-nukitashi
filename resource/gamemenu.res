@@ -3,7 +3,7 @@
 	"Title"
 	{
 		"label"				"Sayo-NKT"
-		"command"			"engine con_enable 1;toggleconsole; clear; echo Sayo by iatgink, edit by techno github.com/TechnoSL/sayo-nukitashi;"
+		"command"			"engine con_enable 1;toggleconsole; clear; echo Sayo by iatgink, edit by techno github.com/tekunotri/sayo-nukitashi;"
 	}
 	"Servers"
 	{
