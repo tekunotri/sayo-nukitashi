@@ -22,7 +22,7 @@
 		"xpos"										"c-96"
 		"ypos"										"5"
 		"wide"										"200"
-		"tall"										"160"
+		"tall"										"200"
 
 		"blue_active_xpos"							"54"
 
@@ -135,7 +135,7 @@
 		"fieldName" 								"DisguiseStatus"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-290"
+		"xpos"										"-270"
 		"ypos"										"60"
 		"wide"										"f0"
 		"tall"										"480"
