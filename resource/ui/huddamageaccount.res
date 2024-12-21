@@ -1,3 +1,5 @@
+#base "huddamageaccount_last.res"
+
 "Resource/UI/HudDamageAccount_Base.res"
 {
 	"CDamageAccountPanel"
