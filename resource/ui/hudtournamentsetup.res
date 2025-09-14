@@ -141,6 +141,7 @@
 		"default"		"1"
 		"font"			"m0refont8"
 		"fgcolor"		"Red"
+
 	}
 
 	"TournamentReadyButton"

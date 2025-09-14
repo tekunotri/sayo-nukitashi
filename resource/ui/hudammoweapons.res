@@ -74,10 +74,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"M0refont28"
+		"font"			"M0refont23Bold"
 		"fgcolor"		"NKT-Orange"
 		"xpos"			"70"
-		"ypos"			"32"
+		"ypos"			"37"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"69"
@@ -90,10 +90,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"M0refont28"
+		"font"			"M0refont23Bold"
 		"fgcolor"		"0 0 0 255"
-		"xpos"			"70"
-		"ypos"			"33"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"textinsetx"			"1"
 		"zpos"			"7"
 		"wide"			"40"
@@ -102,6 +102,9 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
+		"pin_to_sibling"			"ammoinreserve"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"AmmoNoClip"

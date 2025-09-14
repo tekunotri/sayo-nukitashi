@@ -23,7 +23,17 @@
 		"wide"	"94"
 		"tall"	"45"
 	}
-
+	"CurrencyStatusPanel"
+	{
+		"ControlName"								"CCurrencyStatusPanel"
+		"fieldName"									"CurrencyStatusPanel"
+		"xpos"										"c127"
+		"ypos"										"r130"
+		"wide"										"100"
+		"tall"										"100"
+		"visible" 									"1"
+		"enabled" 									"1"
+	}
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"
